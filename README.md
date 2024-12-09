@@ -14,7 +14,6 @@ This repository contains Python scripts designed to manage, compile, evaluate, a
 2.  [Installation](#installation)
 3.  [Usage](#usage)
 4.  [Requirements](#requirements)
-5.  [License](#license)
 
 ----------
 

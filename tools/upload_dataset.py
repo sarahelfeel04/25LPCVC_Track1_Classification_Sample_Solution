@@ -1,7 +1,7 @@
 import os
 import numpy as np
 from PIL import Image
-import qai_hub  # Assuming this is the library you're using for uploading
+import qai_hub
 
 def process_image(image_path, input_shape):
     """Load and process an image from a local path to the required input shape."""

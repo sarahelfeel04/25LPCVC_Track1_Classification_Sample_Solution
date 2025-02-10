@@ -1,6 +1,4 @@
-# LPCVC 2025 Track 1
-
-**Image classification for different lighting conditions and styles**
+# LPCVC 2025 Track 1 - Image classification for different lighting conditions and styles
 
 ## Overview
 
@@ -32,10 +30,18 @@ This repository contains Python scripts designed to manage, compile, evaluate, a
 
 ### **Step 2: Install Dependencies**
 
-Ensure you have Python 3.8+ installed. Install the required Python packages:
+Ensure you have Python 3.9+ installed. Install the required Python packages:
 
 `pip install -r requirements.txt` 
 
+----------
+
+## **Requirements**
+
+-   Python 3.9+
+-   Torch and torchvision
+-   QAI Hub
+-   Required packages listed in `requirements.txt`
 ----------
 
 ## **Usage**
@@ -52,16 +58,8 @@ Execute the script to perform model compilation and inference:
 
 ### **3. Modify Parameters**
 
+-   **Upload Dataset**: Upload your own dataset or sample dataset to run inference jobs.
 -   **Target Device**: Update the `device` parameter to specify your target device.
-
-----------
-
-## **Requirements**
-
--   Python 3.8+
--   Torch and torchvision
--   QAI Hub
--   Required packages listed in `requirements.txt`:
     
 
 ----------

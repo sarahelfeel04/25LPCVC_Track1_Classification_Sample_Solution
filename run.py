@@ -74,5 +74,5 @@ compile_job = qai_hub.submit_compile_job(
 
 compiled_model = compile_job.get_target_model()
 
-inference_output = run_inference(compiled_model, device = qai_hub.Device("Samsung Galaxy S24 (Family)"), input_dataset = qai_hub.get_dataset(""))
-output_array = inference_output['output_0']
+# inference_output = run_inference(compiled_model, device = qai_hub.Device("Samsung Galaxy S24 (Family)"), input_dataset = qai_hub.get_dataset(""))
+# output_array = inference_output['output_0']

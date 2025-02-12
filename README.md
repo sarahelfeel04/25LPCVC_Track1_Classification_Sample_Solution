@@ -46,8 +46,6 @@ Ensure you have Python 3.9+ installed. Install the required Python packages:
 
 ## **Usage**
 
-### F
-
 ### **1. Prepare Pretrained Weights**
 
 Place the pretrained MobileNetV2 weights (`.pth` file) in the `./model/` directory. Update the `pretrained_path` variable in the script to point to your weights file.

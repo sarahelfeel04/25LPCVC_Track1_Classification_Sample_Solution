@@ -1,5 +1,9 @@
 # LPCVC 2025 Track 1 - Image classification for different lighting conditions and styles
 
+## For Submissions
+
+Check out [this repo](https://github.com/lpcvai/25LPCVC_AIHub_Guide) for more details on how to run models on AIHub.
+
 ## Overview
 
 This repository contains Python scripts designed to manage, compile, evaluate, and submit machine learning models using the `qai_hub` library.

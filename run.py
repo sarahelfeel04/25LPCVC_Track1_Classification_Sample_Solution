@@ -72,6 +72,8 @@ compile_job = qai_hub.submit_compile_job(
     input_specs=dict(image=input_shape),
 )
 
+compile_job.modify_sharing(add_emails=['lowpowervision@gmail.com']) ## Share your model for submission
+
 compiled_model = compile_job.get_target_model()
 
 # inference_output = run_inference(compiled_model, device = qai_hub.Device("Samsung Galaxy S24 (Family)"), input_dataset = qai_hub.get_dataset(""))

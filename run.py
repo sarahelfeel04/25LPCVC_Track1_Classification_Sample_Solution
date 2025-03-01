@@ -22,12 +22,7 @@ class PreprocessedMobileNetV2(torch.nn.Module):
 
     def forward(self, img):
         # Apply preprocessing
-        if isinstance(img, torch.Tensor) and len(img.shape) == 4:
-            # If already a batch tensor, skip preprocessing
-            img_tensor = img
-        else:
-            # Preprocess a PIL image or similar input
-            img_tensor = self.preprocess(img).unsqueeze(0)  # Add batch dimension
+        img_tensor = self.preprocess(img)  # Add batch dimension
 
         # Pass the preprocessed image through the model
         return self.mobilenet_v2(img_tensor)

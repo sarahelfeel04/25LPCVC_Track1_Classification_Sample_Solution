@@ -41,11 +41,6 @@ def run_inference(model, device, input_dataset):
 # Parameters
 num_classes = 64
 
-resize = transforms.Compose([
-    transforms.Resize((224, 224)),  # Resize to 224x224
-    transforms.ToTensor()          # Convert to tensor
-])
-
 pretrained_path = "./model/mobilenet_v2_coco.pth"  # Replace with your .pth file path
 
 # Create the model

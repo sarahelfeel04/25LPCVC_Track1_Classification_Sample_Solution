@@ -22,7 +22,7 @@ class PreprocessedMobileNetV2(torch.nn.Module):
 
     def forward(self, img):
         # Apply preprocessing
-        img_tensor = self.preprocess(img)  # Add batch dimension
+        img_tensor = self.preprocess(img)
 
         # Pass the preprocessed image through the model
         return self.mobilenet_v2(img_tensor)

@@ -1,5 +1,0 @@
-import qai_hub
-
-available_devices = qai_hub.get_device_list()
-for device in available_devices:
-    print(device)

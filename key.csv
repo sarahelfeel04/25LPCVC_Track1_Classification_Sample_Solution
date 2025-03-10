@@ -1,0 +1,101 @@
+file_name,label,class_index
+airplane_indoor_backlit_00.png,airplane,3
+airplane_indoor_backlit_01.png,airplane,3
+airplane_outdoor_normal_light_01.png,airplane,3
+airplane_outdoor_normal_light_02.png,airplane,3
+apple_indoor_backlit_00.png,apple,36
+apple_indoor_low_light_01.png,apple,36
+apple_indoor_low_light_02.png,apple,36
+apple_synthetic_01.png,apple,36
+apple_synthetic_02.png,apple,36
+backpack_indoor_lowlight_01.jpg,backpack,21
+backpack_indoor_lowlight_02.jpg,backpack,21
+ball_indoor_normal_light_01.jpg,sports ball,26
+ball_indoor_normal_light_02.jpg,sports ball,26
+banana_indoor_backlit_00.png,banana,35
+banana_indoor_backlit_01.png,banana,35
+banana_indoor_normal_light_01.png,banana,35
+bear_outdoor_low_light_01.jpg,bear,19
+bear_outdoor_normal_light_00.jpg,bear,19
+bear_synthetic_01.png,bear,19
+bed_indoor_normal_light_02.jpg,bed,45
+bench_outdoor_low_light_02.jpg,bench,11
+bench_synthetic_00.png,bench,11
+bench_synthetic_01.png,bench,11
+bird_indoor_normal_light_01.jpg,bird,12
+bird_outdoor_low_light_00.jpg,bird,12
+bird_synthetic_02.png,bird,12
+book_indoor_normal_light_00.jpg,book,59
+book_outdoor_normal_light_01.jpg,book,59
+book_synthetic_02.png,book,59
+bowl_outdoor_normal_light_02.png,bowl,34
+broccoli_backlit_indoor_01.jpg,broccoli,38
+broccoli_backlit_indoor_02.jpg,broccoli,38
+broccoli_low_light_indoor_02.jpg,broccoli,38
+broccoli_synthetic_02.png,broccoli,38
+bus_outdoor_normal_light_01.png,bus,4
+bus_outdoor_normal_light_02.png,bus,4
+bus_synthetic_00.png,bus,4
+car_outdoor_normal_light_01.png,car,1
+car_synthetic_00.png,car,1
+cat_indoor_normal_light_02.jpg,cat,13
+cat_outdoor_back_light_00.jpg,cat,13
+cat_outdoor_normal_light_00.jpeg,cat,13
+cat_outdoor_normal_light_01.jpg,cat,13
+cat_outdoor_normal_light_02.jpeg,cat,13
+cat_synthetic_02.png,cat,13
+clock_indoor_low_light_00.jpg,clock,60
+clock_indoor_low_light_01.jpg,clock,60
+couch_backlit_indoor_01.jpg,couch,43
+couch_low_light_outdoor_00.jpg,couch,43
+couch_normal_light_indoor_00.jpg,couch,43
+couch_normal_light_outdoor_01.jpg,couch,43
+couch_normal_light_outdoor_02.jpg,couch,43
+cup_indoor_low_light_02.png,cup,31
+cup_indoor_normal_light_01.png,cup,31
+dining_table_indoor_normal_light_00.jpg,dining table,46
+dining_table_indoor_normal_light_02.jpg,dining table,46
+dog_indoor_low_light_02.jpg,dog,14
+dog_indoor_normal_light_00.jpg,dog,14
+donut_backlit_outdoor_00.jpg,donut,41
+donut_synthetic_00.png,donut,41
+hair_drier_indoor_low_light_02.jpg,hair drier,63
+hair_drier_indoor_normal_light_00.jpg,hair drier,63
+hair_dryer_synthetic_02.png,hair drier,63
+handbag_indoor_lowlight_02.jpg,handbag,23
+handbag_outdoor_normal_light_00.jpg,handbag,23
+handbag_outdoor_normal_light_01.jpg,handbag,23
+handbag_outdoor_normal_light_02.jpg,handbag,23
+handbag_synthetic_02.png,handbag,23
+keyboard_indoor_low_light_00.jpg,keyboard,52
+keyboard_indoor_low_light_01.jpg,keyboard,52
+keyboard_synthetic_00.png,keyboard,52
+knife_outdoor_normal_light_00.png,knife,32
+knife_synthetic_02.png,knife,32
+laptop_indoor_normal_light_01.jpg,laptop,49
+laptop_outdoor_normal_light_01.jpg,laptop,49
+laptop_synthetic_02.png,laptop,49
+motorcycle_indoor_low_light_02.png,motorcycle,2
+orange_indoor_low_light_02.png,orange,37
+orange_indoor_normal_light_00.png,orange,37
+orange_outdoor_normal_light_02.png,orange,37
+orange_synthetic_00.png,orange,37
+racket_indoor_low_light_00.jpg,tennis racket,28
+racket_indoor_low_light_01.jpg,tennis racket,28
+remote_indoor_normal_light_00.jpg,remote,51
+remote_indoor_normal_light_01.jpg,remote,51
+sheep_outdoor_back_light_02.jpg,sheep,16
+sheep_synthetic_02.png,sheep,16
+spoon_outdoor_normal_light_01.png,spoon,33
+spoon_synthetic_02.png,spoon,33
+sports_ball_synthetic_00.png,sports ball,26
+sports_ball_synthetic_01.png,sports ball,26
+vase_indoor_low_light_00.jpg,vase,61
+vase_indoor_low_light_01.jpg,vase,61
+vase_synthetic_02.png,vase,61
+wine_glass_outdoor_backlit_00.png,wine glass,30
+wine_glass_outdoor_normal_light_00.png,wine glass,30
+wine_glass_synthetic_02.png,wine glass,30
+zebra_outdoor_low_light_02.jpg,zebra,20
+zebra_outdoor_normal_light_00.jpg,zebra,20
+zebra_synthetic_02.png,zebra,20

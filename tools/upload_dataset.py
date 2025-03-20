@@ -31,11 +31,11 @@ print(f"First image shape: {input_data[0].shape}")
 dataset = qai_hub.upload_dataset({"image": input_data})
 
 if dataset:
-    dataset_id = dataset.id  # Extract the ID as a string
+    dataset_id = dataset.id if hasattr(dataset, "id") else dataset.dataset_id
     print(f"Dataset uploaded successfully! Dataset ID: {dataset_id}")
-    
+
     # Write dataset ID to a file
     with open("dataset_id.txt", "w") as f:
-        f.write(dataset_id)
+        f.write(str(dataset_id))
 else:
-    print("Dataset upload failed!")
+    print("Dataset upload failed!")

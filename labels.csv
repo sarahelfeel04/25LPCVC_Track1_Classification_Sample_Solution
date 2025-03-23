@@ -1,0 +1,65 @@
+label,class_index
+bicycle,0
+car,1
+motorcycle,2
+airplane,3
+bus,4
+train,5
+truck,6
+boat,7
+traffic light,8
+stop sign,9
+parking meter,10
+bench,11
+bird,12
+cat,13
+dog,14
+horse,15
+sheep,16
+cow,17
+elephant,18
+bear,19
+zebra,20
+backpack,21
+umbrella,22
+handbag,23
+tie,24
+skis,25
+sports ball,26
+kite,27
+tennis racket,28
+bottle,29
+wine glass,30
+cup,31
+knife,32
+spoon,33
+bowl,34
+banana,35
+apple,36
+orange,37
+broccoli,38
+hot dog,39
+pizza,40
+donut,41
+chair,42
+couch,43
+potted plant,44
+bed,45
+dining table,46
+toilet,47
+tv,48
+laptop,49
+mouse,50
+remote,51
+keyboard,52
+cell phone,53
+microwave,54
+oven,55
+toaster,56
+sink,57
+refrigerator,58
+book,59
+clock,60
+vase,61
+teddy bear,62
+hair drier,63

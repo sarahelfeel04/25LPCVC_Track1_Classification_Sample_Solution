@@ -17,6 +17,11 @@ ground_truth = dict(zip(key_df["file_name"], key_df["class_index"]))  # Actual l
 original_labels = dict(zip(key_df["file_name"], key_df["label"]))     # Actual label names
 file_names = key_df["file_name"].tolist()
 
+# Load class label mapping CSV
+class_label_csv = "labels.csv"  # Path to your class label CSV
+class_label_df = pd.read_csv(class_label_csv)
+class_label_mapping = dict(zip(class_label_df["class_index"], class_label_df["label"]))
+
 # Custom wrapper class for preprocessing and MobileNetV2
 class PreprocessedMobileNetV2(torch.nn.Module):
     def __init__(self, num_classes, pretrained_weights_path):
@@ -110,18 +115,25 @@ try:
     # Get actual label numbers
     actual_label_numbers = [ground_truth[file] for file in file_names]
 
+    
+    # Map predicted numbers to class labels
+    predicted_class_labels = [class_label_mapping.get(num, "Unknown") for num in predicted_labels_numbers]
+
     # Step 6: Create Final DataFrame
     results_df = pd.DataFrame({
         "file_name": file_names,
-        "original_object_label": [original_labels[file] for file in file_names],
-        "actual_label_number": actual_label_numbers,
-        "predicted_label_number": predicted_labels_numbers,
+        "actual_class_number": actual_label_numbers,
+        "predicted_class_number": predicted_labels_numbers,
+        "actual_label": [original_labels[file] for file in file_names],
+        "predicted_label": predicted_class_labels,
         "confidence": confidence_scores
     })
 
     # Step 7: Save to CSV
     results_df.to_csv("predictions_with_labels_hist.csv", index=False)
     print("Predictions saved to predictions_with_labels.csv")
+
+
 
     # Step 8: Compute Accuracy
     correct_predictions = sum(

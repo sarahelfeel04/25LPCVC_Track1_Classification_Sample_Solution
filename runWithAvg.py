@@ -36,7 +36,7 @@ class PreprocessedMobileNetV2(torch.nn.Module):
 
 # Step 1: Upload Dataset
 try:
-    dataset_id = "dp70oppd7"
+    dataset_id = "dd9p5y8d7"
     print(f"Dataset ID: {dataset_id}")
 
     if not dataset_id:
@@ -120,7 +120,7 @@ try:
     })
 
     # Step 7: Save to CSV
-    results_df.to_csv("predictions_with_labels_hist.csv", index=False)
+    results_df.to_csv("predictions_with_labels_avg.csv", index=False)
     print("Predictions saved to predictions_with_labels.csv")
 
     # Step 8: Compute Accuracy

@@ -12,7 +12,9 @@ import torch.nn.functional as F
 # Load key.csv (Ground Truth Labels)
 key_csv_path = "key.csv"  # Update this path if necessary
 key_df = pd.read_csv(key_csv_path)
-ground_truth = dict(zip(key_df["file_name"], key_df["class_index"]))
+# Create ground truth dictionaries
+ground_truth = dict(zip(key_df["file_name"], key_df["class_index"]))  # Actual label numbers
+original_labels = dict(zip(key_df["file_name"], key_df["label"]))     # Actual label names
 file_names = key_df["file_name"].tolist()
 
 # Custom wrapper class for preprocessing and MobileNetV2
@@ -101,32 +103,39 @@ try:
     # Apply softmax to get probabilities
     softmax_probs = F.softmax(torch.tensor(output_logits), dim=1).numpy()
 
-    # Step 3: Get Predicted Labels and Confidence Scores
-    predicted_labels = np.argmax(softmax_probs, axis=1)
+    # Step 5: Get Predicted Labels and Confidence Scores
+    predicted_labels_numbers = np.argmax(softmax_probs, axis=1)
     confidence_scores = np.max(softmax_probs, axis=1)  # Max probability for each prediction
 
-    # Step 4: Compute Accuracy
+    # Get actual label numbers
+    actual_label_numbers = [ground_truth[file] for file in file_names]
+
+    # Step 6: Create Final DataFrame
+    results_df = pd.DataFrame({
+        "file_name": file_names,
+        "original_object_label": [original_labels[file] for file in file_names],
+        "actual_label_number": actual_label_numbers,
+        "predicted_label_number": predicted_labels_numbers,
+        "confidence": confidence_scores
+    })
+
+    # Step 7: Save to CSV
+    results_df.to_csv("predictions_with_labels.csv", index=False)
+    print("Predictions saved to predictions_with_labels.csv")
+
+    # Step 8: Compute Accuracy
     correct_predictions = sum(
-        int(predicted_labels[i]) == int(ground_truth[file_names[i]])
+        int(predicted_labels_numbers[i]) == int(ground_truth[file_names[i]])
         for i in range(len(file_names))
     )
 
+    # Step 9: Calculate and Log Accuracy
     accuracy = (correct_predictions / len(file_names)) * 100
     print(f"Model Accuracy: {accuracy:.2f}%")
 
-    # Step 5: Save Accuracy to File
+    # Step 10: Save Accuracy to File
     with open("accuracy_log.txt", "w") as f:
         f.write(f"Model accuracy: {accuracy:.2f}%\n")
-
-    # Step 6: Save Actual vs Predicted with Confidence to CSV
-    results_df = pd.DataFrame({
-        "file_name": file_names,
-        "actual_label": [ground_truth[file] for file in file_names],
-        "predicted_label": predicted_labels,
-        "confidence": confidence_scores
-    })
-    results_df.to_csv("predictionsWithoutHist.csv", index=False)
-    print("Predictions saved to predictionsWithoutHist.csv")
 
 except Exception as e:
     print(f"Inference job failed: {str(e)}")

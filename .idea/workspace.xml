@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ad3daa7-6460-4381-9efc-4973052c20b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CV_IEEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_IEEE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accuracy_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/accuracy_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/upload_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/upload_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lpcvai/25LPCVC_Track1_Classification_Sample_Solution&quot;,
+    &quot;url&quot;: &quot;https://github.com/sarahelfeel04/25LPCVC_Track1_Classification_Sample_Solution&quot;,
     &quot;accountId&quot;: &quot;b3870d45-b888-444e-9110-9812c432fa55&quot;
   }
 }</component>
@@ -47,18 +53,22 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cv__augmented__v1.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/M-EMAD/Desktop/COCO.ipynb&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;bigdataide_conn_settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\M-EMAD\PycharmProjects\CV_IEEE\model" />
       <recent name="C:\Users\M-EMAD\PycharmProjects\CV_IEEE" />
       <recent name="C:\Users\M-EMAD\PycharmProjects\CV_IEEE\common" />
     </key>
@@ -66,8 +76,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
-        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -82,11 +92,47 @@
       <workItem from="1741378067396" duration="800000" />
       <workItem from="1741379145374" duration="39000" />
       <workItem from="1741461203274" duration="4444000" />
-      <workItem from="1741631665805" duration="3182000" />
+      <workItem from="1741631665805" duration="10296000" />
+      <workItem from="1741761011500" duration="6318000" />
+      <workItem from="1741860990969" duration="498000" />
+      <workItem from="1741894697648" duration="215000" />
+      <workItem from="1741894937231" duration="479000" />
+      <workItem from="1741895612421" duration="509000" />
+      <workItem from="1741896504784" duration="364000" />
+      <workItem from="1741896893528" duration="3878000" />
+      <workItem from="1742318601446" duration="218000" />
+      <workItem from="1742388485978" duration="2375000" />
+      <workItem from="1742418571388" duration="3325000" />
+      <workItem from="1742775012911" duration="9550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="266b2c">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="266b2c" />
+              <option name="initiateTms" value="1741894510009" />
+              <option name="request" value=" how to print hello world" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Welcome to Machinet AI! Before I can assist you with printing &quot;Hello World&quot; or any code-related tasks, you'll need to sign in and subscribe to our service.&#10;&#10;Please follow these steps:&#10;&#10;1. **Sign In**: Click the 'Sign In' button at the left corner of the chat inside the IDE. You will be redirected to [Machinet AI Sign In](https://plugin.machinet.net/#signin) where you can enter your email and password.&#10;&#10;2. **Subscribe**: After signing in, please choose a subscription plan to use Machinet AI. You can find the options at [Machinet AI Pricing](https://plugin.machinet.net/#pricing). You can also try the Pro Trial subscription for 10 days.&#10;&#10;Once you're signed in and subscribed, I'll be happy to help you with your coding questions!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1741894525601" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

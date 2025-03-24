@@ -8,6 +8,7 @@ import subprocess
 from PIL import Image
 from typing import Tuple
 
+
 # Load key.csv (Ground Truth Labels)
 key_csv_path = "key.csv"  # Update this path if necessary
 key_df = pd.read_csv(key_csv_path)

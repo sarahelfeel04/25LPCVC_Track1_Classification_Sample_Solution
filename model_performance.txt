@@ -1,0 +1,27 @@
+Model: Fallback MobileNetV3
+Accuracy: 0.00%
+Model: Optimized MobileNetV3
+Accuracy: 4.00%
+
+=== PERFORMANCE COMPARISON ===
+Model: Enhanced MobileNetV3
+Accuracy: 1.00%
+
+Model: Enhanced MobileNetV2 with correct preprocessing
+Accuracy: 2.00%
+
+
+=== PERFORMANCE COMPARISON ===
+Model: Preserved Classifier + Fine-tuned MobileNetV2
+Accuracy: 95.00%
+
+
+=== PERFORMANCE COMPARISON ===
+Model: Basic Preserved Classifier + Fine-tuned MobileNetV2
+Accuracy: 97.00%
+
+
+=== PERFORMANCE COMPARISON ===
+Model: Basic Preserved Classifier + Fine-tuned MobileNetV2
+Accuracy: 5.00%
+
